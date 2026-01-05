@@ -1,0 +1,1 @@
+# Kazdykiedysbedzielysy.com
