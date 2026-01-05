@@ -56,7 +56,6 @@
             text-decoration: none;
             border-radius: 10px;
             font-size: 16px;
-            transition: background 0.3s;
         }
 
         .buy-button:hover {
@@ -68,14 +67,16 @@
 
     <div class="container">
         <h1>Kup Łysinę</h1>
-        <p>Ekskluzywna, naturalna łysina. Bez filtrów.</p>
+        <p>Ekskluzywna łysina. Cena promocyjna.</p>
 
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Bald_head.jpg" alt="Łysa głowa">
 
         <div class="price">60 zł</div>
 
-        <!-- PODMIEŃ LINK NA PRAWDZIWY -->
-        <a class="buy-button" href="https://example.com">
+        <!-- PAYPAL LINK -->
+        <a class="buy-button" 
+           href="https://www.paypal.me/ernestadamczykl@gmail.com/60"
+           target="_blank">
             Kup teraz
         </a>
     </div>
